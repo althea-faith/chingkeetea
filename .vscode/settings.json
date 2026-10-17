@@ -1,0 +1,5 @@
+{
+  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+  "files.associations": { "*.php": "php" },
+  "editor.tabSize": 2
+}
