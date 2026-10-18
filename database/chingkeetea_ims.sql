@@ -1,5 +1,10 @@
-
-CREATE DATABASE IF NO T EXISTS chingkeetea_ims CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+-- =====================================================================
+-- Chingkeetea Inventory Management System (MySQL / MariaDB for phpMyAdmin)
+-- Import: phpMyAdmin > Import > choose this file > Go
+-- Creates database `chingkeetea_ims` with tables, rules (triggers), views and sample data.
+-- Demo password for every sample account: Chingkee@2026 (stored as SHA-256 hash)
+-- =====================================================================
+CREATE DATABASE IF NOT EXISTS chingkeetea_ims CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE chingkeetea_ims;
 SET FOREIGN_KEY_CHECKS = 0;
 DROP VIEW IF EXISTS v_branch_summary, v_stock_out_report, v_stock_in_report, v_low_stock_items, v_inventory_status;

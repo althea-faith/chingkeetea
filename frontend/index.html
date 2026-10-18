@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chingkeetea Inventory Management System</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<section id="login">
+ <div class="shell">
+  <aside class="side">
+   <div class="logo"><i class="leaf"></i>Chingkeetea</div>
+   <div><h2>Every cup is a new story</h2><p>Inventory management for all Chingkeetea branches.</p></div>
+  </aside>
+  <main class="main">
+   <h1>Sign in</h1>
+   <p class="sub">Use your Chingkeetea email. Your branch and role open automatically.</p>
+   <form id="f" novalidate>
+    <label for="u">Email</label>
+    <input id="u" inputmode="email" autocomplete="username" placeholder="carvero.althea@velez.admin.com">
+    <label for="p">Password</label>
+    <input id="p" type="password" autocomplete="current-password" placeholder="Enter your password">
+    <button class="go" type="submit">Sign in</button>
+    <div class="msg" id="m" role="alert"></div>
+   </form>
+  </main>
+ </div>
+</section>
+<section id="app" hidden><div id="hdr"></div><div class="wrap" id="body"></div></section>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

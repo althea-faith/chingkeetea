@@ -1,1 +1,1 @@
-{ "recommendations": ["bmewburn.vscode-intelephense-client", "xdebug.php-debug", "cweijan.vscode-mysql-client2"] }
+{ "recommendations": ["bmewburn.vscode-intelephense-client", "cweijan.vscode-mysql-client2", "ritwickdey.liveserver"] }

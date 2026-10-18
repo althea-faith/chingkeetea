@@ -1,4 +1,6 @@
-
+-- Run in phpMyAdmin (SQL tab) after importing chingkeetea_ims.sql.
+-- Aligns the database with the new workflow: statuses Pending / Requested / Received / Cancelled
+-- and a low-stock threshold of 10 or below.
 USE chingkeetea_ims;
 
 ALTER TABLE stock_requests
